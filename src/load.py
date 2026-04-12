@@ -3,7 +3,7 @@ import pandas as pd
 unicos_texto = set()
 unicos_list = []
 
-def loadData(all_pipeline_entities, outputPath='data/output'):    
+def load_data(all_pipeline_entities, outputPath='data/output'):    
     for entity in all_pipeline_entities:
         text = entity["text"].strip().lower()
         label = entity["label"].strip().lower()
