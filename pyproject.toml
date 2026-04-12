@@ -1,0 +1,13 @@
+[project]
+name = "pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gliner>=0.2.26",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+    "unstructured-ingest>=1.4.20",
+    "unstructured[docx,md,pdf]>=0.22.18",
+]
