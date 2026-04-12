@@ -1,0 +1,4 @@
+# Defina aqui os campos de entrada e sáida 
+# 
+input: 'data/input'
+output: 'data/output'

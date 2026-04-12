@@ -1,0 +1,9 @@
+# configure o modelo do GLiNER
+
+model: "urchade/gliner_medium-v2.1"
+
+# opções: cpu, cuda, fpga, .....
+machine: 'cpu'
+
+# insira os tipos de campos que deseja incluir 
+labels: ["Formato de arquivo", "Ferramenta", "Linguagem de programação"]
