@@ -7,10 +7,10 @@ Exemplo simples de pipeline de dados local, permite a extração e categorizaç�
 por padrão uma estrutura com as seguintes pastas, uma pasta onde arquivos serão inseridos, uma pasta de arquivos temporários onde os dados brutos serão armazenados, e uma pasta de output onde os arquivos serão armazenados em formato `.csv`
 
 ```
- data
-├──  input
-├──  output
-└──  tmp
+📂 data
+├── 📂 input
+├── 📂 output
+└── 📂 tmp
 ```
 
 ## Configuração
